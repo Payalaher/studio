@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightgreen; */
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(176, 9, 48); */
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: lightsalmon; */
+    display: flex;
+}
+.left-nav{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(247, 133, 133); */
+    display: flex;
+    align-items: center;
+padding: 0 5vw;
+
+
+}
+.left-nav h2{
+    font-size: 1.8vw;
+
+}
+.right-nav{
+    height: 100%;
+    width: 70%;
+    /* background-color: lightseagreen; */
+    display: flex;
+align-items: center;
+justify-content: flex-end;
+padding: 0 5vw;
+}
+.right-nav a{
+    margin: 0 1.3vw;
+    font-size: 1.2vw;
+    color: black;
+    margin: 0 1.2vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+.right-nav button{
+    padding: .5vw 1.6vw;
+    background-color: transparent;
+    margin-left: 5vw;
+    border-radius: 6px;
+    border: 1.2px solid black;
+    font-size: 1vw;
+
+
+}
+.main-page{
+    height: calc(100% - 100px);
+    width: 100%;
+/* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page{
+    height: 90%;
+    width: 90%;
+    /* background-color: rgb(2, 42, 40); */
+    border-radius: 10px;
+    background-image: url(/new.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.lower-mainpage{
+    height: 20vh;
+    width: 100%;
+    /* background-color: rgb(134, 8, 134); */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.facilities{
+    height: 30vh;
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: -100%;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px; */
+    box-shadow: 15px 15px 15px rgb(68, 63, 63);
+
+    display: flex;
+    overflow: hidden;
+    padding: 1vw;
+}
+
+.facilities .left
+{
+    /* background-color: rgb(115, 156, 74); */
+    height: 100%;
+    width: 38%;
+    padding: 1vw;
+
+}
+.upper-facilities{
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(0, 11, 11); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-facilities h2{
+    font-size: 1.4vw;
+
+}
+.upper-facilities a{
+    text-decoration: none;
+    color: darkorange;
+    font-weight: 600;
+    font-size: .9vw;
+    margin-right: 2vw;
+}
+
+.lower-facilities{
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(24, 10, 112); */
+    display: flex;
+    align-items: center;
+}
+
+.swimming p, 
+.wifi p,
+.ac p,
+.dinner p {
+    text-align: center;
+    margin: .5vw 0;
+    font-size: 1vw;
+}
+
+
+.swimming, 
+.wifi,
+.ac,
+.dinner {
+    margin-right: 2vw;
+    height: 10vh;
+    width: 10vh;
+    /* background-color: darkorange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.swimmming-icon {
+    color: rgb(155, 183, 223);
+    /* background-color: rgb(255, 208, 0); */
+    /* background-color: aqua; */
+}
+.wifi-icon {
+    color: rgb(67, 64, 14);
+}
+
+.ac-icon {
+    color: rgb(5, 138, 93);
+}
+
+.dinner-icon {
+    color: rgb(144, 90, 25);
+}
+
+.lower-facilities button {
+    padding: .8vw;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.lower-facilities button i {
+    font-size: 1.4vw;
+}
+
+
+
+.facilities .mid{
+    height: 100%;
+    width: 24%;
+    /* background-color: rgb(4, 49, 78); */
+    display: flex;
+        flex-direction: column;
+
+
+}
+
+.mid h3{
+    padding: 1vw;
+    font-size: 1.4vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mid p{
+    padding: 1vw;
+    font-size: 1.3vw;
+}
+.mid button{
+    padding: .5vw 1vw;
+    border-radius: 5px;
+    /* text-align: center; */
+    font-size: 1vw;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.mid button i{
+    padding-right: 1.4vw;
+    font-size: 2vw;
+}
+.facilities .right{
+    height: 100%;
+    width: 38%;
+    /* background-color: rgb(240, 232, 6); */
+    display: flex;
+    flex-direction: column;
+}
+.upper-left{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-items: ; */
+    justify-content: space-between;
+    height: 40%;
+    width: 100%;
+    /* background-color: lawngreen; */
+    padding: 1vw 3vw;
+}
+.upper-right{
+    height: 60%;
+    width: 100%;
+    /* background-color: rgb(224, 4, 4); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* font-weight: 500; */
+    /* padding: 1vw; */
+    justify-content: space-evenly;
+    font-size: 4vw;
+}
+
+.upper-left i{
+    /* padding: .5vw; */
+    font-size: 2vw;
+    color: black;
+}
+
+.one{
+    height:20px;
+    width: 20px;
+    /* background-color: lightseagreen; */
+    background-image: url(/1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 60%;
+    /* font-size: 10vw; */
+    /* font-weight: 600; */
+    padding: 1.5vw;
+
+}
+
+.two{
+    height: 20px;
+    width: 20px;
+    /* background-color: lightseagreen; */
+    background-image: url(/2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 60%;
+    padding: 1.5vw;
+
+}
+
+.three{
+    height: 20px;
+    width: 20px;
+    /* background-color: lightseagreen; */
+    background-image: url(/3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 60%;
+    padding: 1.5vw;
+
+}
+.four{
+    height: 20px;
+    width: 20px;
+    /* background-color: lightseagreen; */
+    background-image: url(/4.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 60%;
+    padding: 1.5vw;
+
+}
+.five{
+    height: 20px;
+    width: 20px;
+    background-color: lightseagreen;
+    background-image: url(/5.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 60%;
+    padding: 1.5vw;
+
+}
+.choice {
+    height: 50vh;
+    width: 100%;
+    /* background-color: pink; */
+    background-size: cover;
+}
+.upper-choice{
+    height: 20%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    /* display: flex; */
+}
+.upper-choice h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction:column ; */
+    padding: 1.5vw;
+    font-size: 3vw;
+}
+.lower-choice{
+    height: 80%;
+    width: 100%;
+    /* background-color: darkgreen; */
+    padding: 3vw;
+    display: flex;
+}
+.left-lower-choice{
+    height: 100%;
+    width: 33%;
+    /* background-color: lightsalmon; */
+    margin: 2vw;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center; */
+}
+.upper-left-lower-choice{
+    height: 60%;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(/1st.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.lower-left-lower-choice{
+    height: 40%;
+    width: 100%;
+    /* background-color: blueviolet; */
+   padding: 1vw 2vw;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+.lower-left-lower-choice h1{
+    color: rgb(233, 82, 82);
+}
+.lower-left-lower-choice h3{
+    font-size: 1.5vw;
+}
+.mid-lower-choice{
+    height: 100%;
+    width: 34%;
+    /* background-color: rgb(205, 66, 12); */
+    margin: 2vw;
+
+}
+
+.upper-mid-lower-choice{
+    height: 60%;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(/2nd.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+
+
+}
+
+.lower-mid-lower-choice{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(250, 248, 252);
+    padding: 1vw 2vw;
+
+}
+.lower-mid-lower-choice h1{
+    color: rgb(233, 82, 82);
+}
+.lower-mid-lower-choice h3{
+    font-size: 1.5vw;
+}
+.right-lower-choice{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(250, 248, 252);
+    margin: 2vw;
+
+}
+.upper-right-lower-choice{
+    height: 60%;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(/3rd.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.lower-right-lower-choice{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(250, 248, 252);
+    padding: 1vw 2vw;
+
+}
+
+.lower-right-lower-choice h1{
+    color: rgb(233, 82, 82);
+}
+.lower-right-lower-choice h3{
+    font-size: 1.5vw;
+}
+
+
