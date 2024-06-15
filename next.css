@@ -79,7 +79,7 @@ html, body {
     width: 90%;
     /* background-color: light3seagreen; */
     border-radius: 10px;
-    background-image: url(/new.jpg);
+    background-image: url(new.jpg);
     background-size: cover;
     background-position: center;
 }
